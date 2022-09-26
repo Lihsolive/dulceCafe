@@ -1,0 +1,54 @@
+.container {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.menu-icon {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+
+.brand-logo-svg {
+    height: 100px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a:hover {
+    color: #ff4976;
+    transition: .5s;
+}
+
+.social-btn-list {
+    display: flex;
+    padding: 0 20px;
+}
+
+
+.menu-list {
+    display: flex;
+    align-items: center;
+}
+
+.menu-navibar-item, .social-btn-item {
+    list-style: none;
+}
+
+
+.menu-navibar-item-link, .social-btn-items-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 10px;
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+}
+

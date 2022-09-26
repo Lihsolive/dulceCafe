@@ -1,0 +1,87 @@
+html, body {
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  body {
+    background-image: linear-gradient(
+        rgba(77, 45, 30, 100%),
+        rgba(248, 129, 174, 0.7)
+      ),
+      url(../img/cafe-cupcake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+    text-align: center;
+  }
+
+  .principal-title {
+    font-family: "Allura", cursive;
+    font-size: 80px;
+    color: white;
+    font-weight: 400;
+    padding-top: 30px;
+    margin-top: 20px;
+    line-height: 1em;
+  }
+
+  .principal-subtitle {
+    font-family: "Mulish", sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  .principal-button {
+    background-color: #fc5d92;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+  }
+
+  .principal-button:hover {
+    background-color: #ff4976;
+  }
+  
+  .line {
+    width: 200px;
+    height: 0.5px;
+    background-color: white;
+    border: none;
+    margin-top: 50px;
+  }
+
+  .secondary-title {
+    margin-top: 20px;
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .secondary-text {
+    padding-top: 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    font-family: "Mulish", sans-serif;
+    margin-bottom: 50px;
+  }
