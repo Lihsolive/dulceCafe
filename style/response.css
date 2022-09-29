@@ -3,7 +3,7 @@
         display: inline-flex;
         align-items: flex-end;
         position: relative;
-        right: 30px;
+        right: 20px;
     }  
     
     .navbar {
@@ -44,6 +44,8 @@
     .social-btn-items-link {
         font-size: 40px;
     }
-    
-
+    .container {
+        padding: 0px 20px;
+        margin-top: 20px;
+    }
 }
