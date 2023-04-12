@@ -56,6 +56,7 @@ html, body {
 
   .principal-button:hover {
     background-color: #ff4976;
+    cursor: pointer;
   }
   
   .line {
